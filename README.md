@@ -1,12 +1,12 @@
 项目架构
 
-rag-llmops-system/
-│
-├── 📁 data_pipeline/                     # 文档处理与向量生成管道
-│   ├── ingest/
-│   │   ├── load_documents.py            # 文档加载器（PDF, HTML, etc.）
-│   │   ├── chunk_documents.py           # 文档 Chunk 切分器
-│   │   └── metadata_extractor.py        # 提取文档元数据
+rag-llmops-system/  
+│  
+├── 📁 data_pipeline/                     # 文档处理与向量生成管道  
+│   ├── ingest/  
+│   │   ├── load_documents.py            # 文档加载器（PDF, HTML, etc.）  
+│   │   ├── chunk_documents.py           # 文档 Chunk 切分器  
+│   │   └── metadata_extractor.py        # 提取文档元数据  
 │   ├── embedding/
 │   │   ├── embed_texts.py               # 调用 Embedding API 生成向量
 │   │   ├── embedding_registry.py        # 嵌入模型注册与版本管理
