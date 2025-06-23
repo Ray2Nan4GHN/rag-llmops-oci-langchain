@@ -1,4 +1,3 @@
-# RAG LLMOps System (LangChain + OCI)
 项目架构
 
 rag-llmops-system/
